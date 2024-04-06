@@ -1,4 +1,4 @@
-module github.com/Penny-wise-2-0/finance-ingest-service
+module github.com/Penny-wise-2-0/ingest-service
 
 go 1.22.1
 

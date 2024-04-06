@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/Penny-wise-2-0/finance-ingest-service/inits"
-	"github.com/Penny-wise-2-0/finance-ingest-service/middleware"
+	"github.com/Penny-wise-2-0/ingest-service/inits"
+	"github.com/Penny-wise-2-0/ingest-service/middleware"
 
-	"github.com/Penny-wise-2-0/finance-ingest-service/routes"
+	"github.com/Penny-wise-2-0/ingest-service/routes"
 
 	"github.com/gin-gonic/gin"
 )

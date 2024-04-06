@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"github.com/Penny-wise-2-0/finance-ingest-service/controllers"
+	"github.com/Penny-wise-2-0/ingest-service/controllers"
 	
 	"github.com/gin-gonic/gin"
 )

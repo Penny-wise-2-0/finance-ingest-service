@@ -3,8 +3,8 @@ package routes
 import (
 	
 
-	"github.com/Penny-wise-2-0/finance-ingest-service/controllers"
-	"github.com/Penny-wise-2-0/finance-ingest-service/middleware"
+	"github.com/Penny-wise-2-0/ingest-service/controllers"
+	"github.com/Penny-wise-2-0/ingest-service/middleware"
 	"github.com/gin-gonic/gin"
 )
 

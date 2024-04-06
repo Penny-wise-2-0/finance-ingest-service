@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 
-	"github.com/Penny-wise-2-0/finance-ingest-service/inits"
-	"github.com/Penny-wise-2-0/finance-ingest-service/models"
+	"github.com/Penny-wise-2-0/ingest-service/inits"
+	"github.com/Penny-wise-2-0/ingest-service/models"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 )
