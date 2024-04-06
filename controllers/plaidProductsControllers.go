@@ -31,14 +31,11 @@ func SaveTransactions(c *gin.Context) {
 			return
 		}
 		
-
 	}else {
 		cursor = &existingCursor.Cursor
 	}
 
-
 	ctx := context.Background()
-
 	for hasMore {
 		req := plaid.NewTransactionsSyncRequest(accessToken)
 		if cursor != nil {
@@ -62,8 +59,6 @@ func SaveTransactions(c *gin.Context) {
 				c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 				return
 			}
-		
-				
 				newTransaction := models.Transaction{
 				UserID: userID,
 				TransactionID: transaction.GetTransactionId(),
