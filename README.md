@@ -22,7 +22,7 @@ Developed in Go, this service leverages Go's concurrency model and robust standa
 
 The Finance Ingest Service is at the heart of Pennywise, underpinning its mission to provide users with a dynamic and insightful tool for personal finance management. By automating the ingestion and processing of financial data, it not only saves users time but also enhances their ability to make informed financial decisions.
 
-## Disclaimer
+## DISCLAIMER
 
 The Pennywise Finance Ingest Service is developed for private, personal use as a component of the Pennywise personal finance application. It is tailored specifically to the developer's individual financial management needs and leverages third-party financial data through the Plaid API under the terms of personal use. This service and its codebase are not intended for commercial distribution, replication, or use and do not offer any warranties or guarantees. Any adaptation or use of the software for other purposes should be done in compliance with the Plaid API's terms of service and with consideration to the security and privacy of financial data.
 
